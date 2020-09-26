@@ -1,0 +1,63 @@
+.CodeMirror {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: inconsolata, monospace;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  background: #222222;
+  color: #e6e2da;
+}
+.CodeMirror-lines {
+  padding: 8px 0;
+}
+.CodeMirror-gutters {
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+  background-color: #222222;
+  padding-right: 10px;
+  z-index: 3;
+  border: none;
+}
+div.CodeMirror-cursor {
+  border-left: 3px solid #e6e2da;
+}
+.CodeMirror-activeline-background {
+  background: #3e3d32;
+}
+.CodeMirror-selected {
+  background: #49483e;
+}
+.cm-comment {
+  color: #686760;
+}
+.cm-string {
+  color: #e6db74;
+}
+.cm-number {
+  color: #66d9ef;
+}
+.cm-atom {
+  color: #66d9ef;
+}
+.cm-keyword {
+  color: #ff6814;
+}
+.cm-variable {
+  color: #e1861c;
+}
+.cm-def {
+  font-style: italic;
+  color: #fd971f;
+}
+.cm-variable-2 {
+  color: #ff6814;
+}
+.cm-property {
+  color: #66d9ef;
+}
+.cm-operator {
+  color: #ff6814;
+}
+.CodeMirror-linenumber {
+  color: #686760;
+}

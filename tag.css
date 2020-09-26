@@ -1,0 +1,129 @@
+/* Custom data tags */
+span.rm-page-ref[data-tag="Tweets"] {
+  background: #81d5ed !important;
+  color: white !important;
+  padding: 0.25em 0.375em;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Inbox"] {
+  background-color: #db3b8d !important;
+  color: white !important;
+  padding: 0.25em 0.375em;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Articles"] {
+  background-color: #1dcb8d !important;
+  color: white !important;
+  padding: 0.25em 0.375em;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Waiting"] {
+  color: #75acb2;
+  font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Research"] {
+  color: #8878ae;
+  font-weight: 500;
+}
+
+/* Maggie's original */
+span.rm-page-ref[data-tag="Literature Notes"] {
+  background: #9769ff !important;
+  color: white !important;
+  padding: 0.375em 0.75em;
+  font-weight: 500;
+  line-height: 2em;
+}
+
+span.rm-page-ref[data-tag="Evergreens"] {
+  background: #0dbac6 !important;
+  color: #fff !important;
+  padding: 3px 8px;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Seedling"] {
+  color: #0dbac6 !important;
+  padding: 3px 3px;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Idea Bank"] {
+  color: #fcb815 !important;
+  padding: 3px 4px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Idea Bank"]:before {
+  content: "✦ ";
+}
+
+span.rm-page-ref[data-tag="Illustrated Notes"] {
+  color: #7172fc;
+  padding: 3px 4px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Garden Notes"] {
+  color: #9dbc13;
+  padding: 3px 4px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Video Tutorial"] {
+  color: #db3b8d;
+  padding: 3px 4px;
+  line-height: 1.4em;
+  font-weight: 700;
+}
+
+span.rm-page-ref[data-tag="Essay"] {
+  background: #adcb2a;
+  color: #fff;
+  padding: 0.375em 0.75em;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Livestream"] {
+  color: #b979cf;
+  padding: 3px 4px;
+  line-height: 1.4em;
+  font-weight: 700;
+}
+
+span.rm-page-ref[data-tag="Talk"] {
+  background: #7172fc;
+  color: #fff;
+  padding: 0.375em 0.75em;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Synthesising"] {
+  background: #fc766f !important;
+  color: #fff !important;
+  padding: 0.375em 0.75em;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Alive"] {
+  background: #ee5f85 !important;
+  color: #fff !important;
+  padding: 0.375em 0.75em;
+  line-height: 2em;
+  font-weight: 500;
+}
