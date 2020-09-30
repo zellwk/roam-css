@@ -331,6 +331,17 @@ code {
   margin-top: 1.5em;
 }
 
+/* Block References */
+.rm-block-ref:hover {
+  background-color: var(--code-bg-color);
+}
+
+.rm-block-ref {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid var(--icon-color);
+}
+
 /* Page Embeds */
 .roam-block h2.level2 {
   font-size: 1em;
