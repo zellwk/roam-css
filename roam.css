@@ -112,6 +112,12 @@
   width: 0.25em;
 }
 
+/* Number bullets */
+.controls + span {
+  margin-top: 0.175em !important;
+  margin-left: -0.75em;
+}
+
 .rm-resize-img {
   width: auto !important;
 }
