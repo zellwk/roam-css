@@ -7,9 +7,12 @@
   --sidebar-bg-color: #111317;
 
   --text-color: #9ea1a7;
-  --strong-color: #b0b3ba;
-  --heading-color: #69c4f5;
+  --strong-color: #cfd4da;
+  --heading-color: #6797f6;
+  --heading-color-alt: #63bdf7;
   --page-ref-color: #6076e6;
+  --page-ref-color-alt: #5193da;
+
   --highlight-bg-color: #2a2926;
   --highlight-color: #db9514;
 
@@ -26,7 +29,7 @@
 /* Desktop sizes */
 @media screen and (min-height: 800px) {
   :root {
-    --font-size: 1.375rem;
+    --font-size: 1.45rem;
   }
 }
 
@@ -115,7 +118,7 @@
 /* Number bullets */
 .controls + span {
   margin-top: 0.175em !important;
-  margin-left: -0.75em;
+  margin-left: -0.5em;
 }
 
 .rm-resize-img {
@@ -151,9 +154,12 @@ body {
 /* Content (typography)
 *************************/
 .roam-body .roam-app h1,
-.rm-level2 .roam-block,
-.rm-level3 .roam-block {
+.rm-heading-level-2 > .rm-block__self .rm-block__input {
   color: var(--heading-color);
+}
+
+.rm-heading-level-3 > .rm-block__self .rm-block__input {
+  color: var(--heading-color-alt);
 }
 
 strong {
@@ -172,9 +178,17 @@ strong {
   background-color: var(--block-select-highlight);
 }
 
-.rm-page-ref,
-.rm-alias-block {
+.rm-alias-block,
+[data-tag] {
   color: var(--tag-color);
+}
+
+[data-link-title] > span {
+  color: var(--page-ref-color);
+}
+
+[data-link-title] + [data-link-title]:nth-child(odd) > span {
+  color: var(--page-ref-color-alt);
 }
 
 a {
@@ -185,6 +199,10 @@ code {
   background: var(--code-bg-color);
   color: var(--text-color);
   border: none;
+}
+
+.rm-attr-ref {
+  color: var(--icon-color);
 }
 
 /* Content (aesthetics)
@@ -346,6 +364,26 @@ code {
   padding: 0;
   margin: 0;
   border-bottom: 1px solid var(--icon-color);
+}
+
+/* Block Embeds */
+.rm-embed-container {
+  background-color: var(--ref-bg-color);
+  margin: 0;
+  padding: 0.375em 0;
+}
+
+.rm-embed-container:hover > .rm-embed-edit {
+  top: auto;
+}
+
+.rm-embed-inner-block-hide {
+  margin-left: -1em;
+  transition: none;
+}
+
+.rm-embed-inner-block-hide:hover {
+  margin-left: -0.5em;
 }
 
 /* Page Embeds */
