@@ -7,14 +7,14 @@
   --sidebar-bg-color: #111317;
 
   --text-color: #9ea1a7;
-  --strong-color: #cfd4da;
+  --strong-color: #abb1b9;
   --heading-color: #6797f6;
   --heading-color-alt: #63bdf7;
   --page-ref-color: #6076e6;
   --page-ref-color-alt: #5193da;
 
-  --highlight-bg-color: #2a2926;
-  --highlight-color: #db9514;
+  --highlight-bg-color: #161615;
+  --highlight-color: #cd8e1a;
 
   --link-color: #6490ac;
   --code-bg-color: #292b2f;
@@ -162,13 +162,13 @@ body {
   color: var(--heading-color-alt);
 }
 
-strong {
+.rm-bold {
   color: var(--strong-color);
   font-weight: 600;
 }
 
-.roam-highlight,
-.roam-highlight strong {
+.rm-highlight,
+.rm-highlight .rm-bold {
   background-color: var(--highlight-bg-color);
   color: var(--highlight-color);
 }
