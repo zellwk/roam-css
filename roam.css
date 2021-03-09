@@ -59,6 +59,10 @@
   max-width: 35em;
 }
 
+.roam-block-container .rm-block-main .rm-block-separator {
+  min-width: auto;
+}
+
 #right-sidebar .roam-block-container {
   font-size: 1.125rem;
   max-width: 100%;
@@ -207,8 +211,8 @@ code {
 
 /* Content (aesthetics)
 *************************/
-.block-border-left {
-  border-left: 1px solid var(--block-left-border);
+.rm-multibar {
+  border-color: var(--block-left-border);
 }
 
 /* Open / close caret */
@@ -396,7 +400,7 @@ code {
 /* Dropdown */
 .bp3-input,
 .bp3-menu {
-  border: 1px solid white;
+  border: 1px solid var(--tag-color);
   background-color: var(--body-bg-color) !important;
   color: #666;
 }
